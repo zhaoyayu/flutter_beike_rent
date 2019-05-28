@@ -38,25 +38,11 @@ class RentPageState extends State<RentPage> {
                 ))
           ],
         ),
-//        body: Column(
-//          crossAxisAlignment: CrossAxisAlignment.start,
-//          children: <Widget>[
-//            Text("租房专家"),
-//            Row(
-//              children: <Widget>[
-//                Text("租房专家"),
-//                Text("租房专家2"),
-//              ],
-//              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-//            ),
-//          ],
-//        )
-
       body: Padding(
         padding: EdgeInsets.fromLTRB(15, 0, 15, 0),
         child: ListView(
           children: <Widget>[
-//            Padding(padding: EdgeInsets.only(top: 10)),
+            Padding(padding: EdgeInsets.only(top: 10)),
             ChannelView(),
             UserView(),
             BannerView(),

@@ -15,27 +15,6 @@ class HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-//      appBar: AppBar(
-//        title: Text(
-//          "租房",
-//          style: TextStyle(color: Colors.black, fontSize: 24),
-//        ),
-//        leading: Icon(
-//          Icons.arrow_back,
-//          color: Colors.black,
-//        ),
-//        centerTitle: true,
-//        actions: <Widget>[
-//          Padding(
-//            padding: EdgeInsets.only(right: 10),
-//            child: Icon(
-//              Icons.search,
-//              color: Colors.black,
-//            ),
-//          )
-//        ],
-//        backgroundColor: Colors.white,
-//      ),
       body: _pageList[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
           currentIndex: _currentIndex,

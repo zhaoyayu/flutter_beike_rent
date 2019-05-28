@@ -1,7 +1,6 @@
 # rent_app
 
 Flutter 仿贝壳找房App, 租房模块实现
-A new Flutter project.
 
 ## Getting Started
 
